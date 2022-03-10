@@ -1,23 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-html,
-body,
-*:after,
-*:before{
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
+*{
+  margin: 0;
+  padding: 0;
 }
 
 body{
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
-  }
+  font-family: Roboto, 'san-serif';
+}
 
 .home{
   display: grid;
   grid-template-columns: 0.6fr 2fr 0.6fr;
-  /* background-color: #F6F8FA; */
 }
 
 .info-column{
