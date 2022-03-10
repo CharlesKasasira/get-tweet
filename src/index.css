@@ -323,7 +323,7 @@ a{
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 698px) {
 
   .home{
     display: flex;
@@ -346,6 +346,15 @@ a{
       flex-direction: column;
       gap: 10px;
       margin: 30px 0;
+      align-items: center;
+    }
+
+    .works{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin: 30px 0;
+      align-items: center;
     }
 
     .blogs{
@@ -353,6 +362,12 @@ a{
       flex-direction: column;
       gap: 10px;
       margin: 30px 0;
+      align-items: center;
+    }
+
+    .dark-theme .info-column{
+      border-right: none;
+      border-left: none;
     }
 }
 

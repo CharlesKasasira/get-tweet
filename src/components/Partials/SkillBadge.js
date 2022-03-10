@@ -2,7 +2,7 @@ function SkillBadge({ skill, skillIcon, color }) {
   return (
     <div
         style={{
-            padding: '5px 10px',
+            padding: '3px 10px',
             borderRadius: '20px',
             fontSize: '0.8rem',
             margin: '2px 2px',
