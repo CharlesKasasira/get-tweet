@@ -1,11 +1,12 @@
 function SkillBadge({ skill, skillIcon, color }) {
   return (
-    <span
+    <div
         style={{
             padding: '5px 10px',
             borderRadius: '20px',
             fontSize: '0.8rem',
-            margin: '0 2px'
+            margin: '2px 2px',
+            display: 'inline-block'
         }}
         className='skill'
     >
@@ -15,7 +16,7 @@ function SkillBadge({ skill, skillIcon, color }) {
             {skillIcon}
         </span>
         <span className='skill-text'>{skill}</span>
-    </span>
+    </div>
   )
 }
 

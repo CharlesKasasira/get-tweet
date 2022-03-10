@@ -44,7 +44,7 @@ function Home() {
                                 <SkillBadge skill={'React'} skillIcon={<DiReact />} color='indigo' />
                             </div>
 
-                            <div style={{marginTop: '5px'}}>
+                            <div>
                                 <SkillBadge skill={'React-Native'} skillIcon={<DiReact />} color='indigo' />
                                 <SkillBadge skill={'Node.js'} skillIcon={<DiNodejsSmall />} color='green' />
                                 <SkillBadge skill={'Python'} skillIcon={<DiPython />} color='gold' />
