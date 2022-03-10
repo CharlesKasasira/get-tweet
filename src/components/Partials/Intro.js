@@ -1,6 +1,5 @@
 import { FaGithub } from 'react-icons/fa'
-import { AiFillTwitterCircle, AiOutlineLinkedin, AiFillInstagram } from 'react-icons/ai'
-import { RiLinkedinFill } from 'react-icons/ri'
+import { AiFillTwitterCircle } from 'react-icons/ai'
 import pole from 'components/img/pole.png'
 import { Link } from 'react-router-dom'
 import { ImYoutube } from 'react-icons/im'
