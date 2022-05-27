@@ -15,16 +15,17 @@ import { DiReact, DiPython, DiBootstrap, DiCss3, DiJsBadge, DiGitBranch, DiNodej
 import { AiFillHtml5, AiFillTwitterCircle, AiFillLinkedin } from 'react-icons/ai'
 import { Card } from 'react-bootstrap'
 
+
 function Home() {
 
-    const { theme } = useToggle()
+    const { theme, darkMode } = useToggle()
     const [toggleState, setToggleState] = useState(1);
 
     const toggleTab = (index) => setToggleState(index)
     const getActiveClass = (index, className) => toggleState === index ? className : ""
     
     return (
-        <div className={`${theme}`}>
+        <div className={`${darkMode? 'dark-theme' : 'light-theme'}`}>
             <Navbar />
             <div className="home">
                 <div className="left-out">
